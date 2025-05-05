@@ -1,0 +1,78 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">        
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+    /* style.css */
+    :root {
+        --primary-color: Coral;
+        --secondary-color: SlateBlue;
+        --background-color: LightGray;
+        --text-color: DarkGray;
+        --accent-color: LightSeaGreen;
+    }
+    
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
+    
+    header {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    main {
+        background-color: var(--primary-color);
+        color: purple;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    article {
+        background-color: pink;
+        border-left: 6px solid var(--accent-color);
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    button {
+        background-color: var(--secondary-color);
+        color: greenyellow;
+        border: none;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Blog</h1>
+  </header>
+  <main>
+    <article>
+      <h2>Blog Post Title</h2>
+      <p>This is the content of the blog post.</p>
+    </article>
+  </main>
+</body>
